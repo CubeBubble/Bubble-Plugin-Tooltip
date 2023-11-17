@@ -1,0 +1,33 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "HTML Tippy",
+    "fields": {
+        "AAJ": {
+            "caption": "HTML",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "html",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Placement",
+            "editor": "Dropdown",
+            "name": "placement",
+            "optional": true,
+            "options": "top,right,bottom,left",
+            "rank": 1
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}

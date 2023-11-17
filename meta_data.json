@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "containers"
+    },
+    "description": "A simple tooltip plugin using Tippy.js library.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1672610968182x826170090715607000/logo-ebc385458e03fdb24af078536af88065.svg",
+    "license": "open_source",
+    "name": "Tooltip",
+    "plugin_instructions": "In order to have default font in basic tooltip add this style balise in your body :\n\n<style>\nbody {\n    font-family: var(--font_default);\n}\n</style>\n",
+    "sa_node_version": 18
+}

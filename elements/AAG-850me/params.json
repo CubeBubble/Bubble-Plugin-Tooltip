@@ -1,0 +1,70 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "Tippy",
+    "fields": {
+        "AAH": {
+            "caption": "Label",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "label",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Arrow",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "arrow",
+            "rank": 1
+        },
+        "AAM": {
+            "caption": "Animation",
+            "default_val": "scale",
+            "editor": "Dropdown",
+            "name": "animation",
+            "options": "scale,perspective,shift-away,shift-toward",
+            "rank": 2
+        },
+        "AAN": {
+            "caption": "Show delay",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "showDelay",
+            "rank": 3
+        },
+        "AAO": {
+            "caption": "Hide delay",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "hideDelay",
+            "rank": 4
+        },
+        "AAP": {
+            "caption": "Singleton",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "singleton",
+            "rank": 5
+        },
+        "AAR": {
+            "caption": "Placement",
+            "editor": "Dropdown",
+            "name": "placement",
+            "optional": true,
+            "options": "top,right,bottom,left",
+            "rank": 6
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
